@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 250 304.6" style="enable-background:new 0 0 250 304.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F17424;}
+	.st1{fill:none;}
+	.st2{stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st3{font-family:'Ubuntu';}
+	.st4{font-size:35px;}
+</style>
+<g>
+	<g id="XMLID_1_">
+		<g>
+			<path class="st0" d="M200.2,30.5c14.8,20.4,18.3,45-3.3,68.8c42.9,5.9,39.4,96.4-7.4,117.7l-66.9,30.6v-0.3l-27.7,12.5
+				c-8.3,3.6-14.8-0.8-14.8-10.3V84.3c0-5.4,3.7-11.3,8.5-13.4l83.3-38.1l-12.2-5.2L76.9,65.3c-7.2,3.3-7.7,5.6-7.7,12.3v156
+				c0,4.1,1.5,7.5,3.9,9l-5.2,2.4c-8.3,3.6-14.8-0.8-14.8-10.3V69.7c0-5.2-0.2-9.5,8.5-13.4l80-36.6l-10.2-4.3l-78.5,36
+				c-7.2,3.3-9.8,6.4-9.8,13.3v156c0,4.1,1.5,7.5,3.9,9l-5.2,2.4c-8.3,3.6-14.8-0.8-14.8-10.3V56.6c0-5.2,3.7-11.3,8.5-13.4l3.9-1.8
+				l76.5-34.5c22-9.9,23.5-8.2,39-1.4c3.7,1.6,8.9,3.6,13.7,5.9C188,20.3,193.9,21.6,200.2,30.5z M140.7,197.7
+				c32.7-14.9,29.9-61.6,0-47.8l-34,15.5v47.8L140.7,197.7z M140.7,117.8c30.9-14.3,29.9-61.6,0-47.8l-34,15.5v47.8L140.7,117.8z"/>
+		</g>
+	</g>
+</g>
+<rect x="0" y="265" class="st1" width="250" height="35"/>
+<text transform="matrix(1 0 0 1 3.0796 292.1592)" class="st2 st3 st4">Blog Dev Guide</text>
+</svg>
