@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="200" height="200"
-	 viewBox="0 0 250 304.6" style="enable-background:new 0 0 250 304.6;" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#F17424;}
 	.st1{fill:none;}
-	.st2{stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
-	.st3{font-family:'Ubuntu';}
-	.st4{font-size:35px;}
+	.st2{font-family:'Ubuntu';}
+	.st3{font-size:22.981px;}
+	.st4{fill:none;stroke:#000000;stroke-width:1.3132;stroke-miterlimit:6.566;}
 </style>
 <g>
 	<g id="XMLID_1_">
 		<g>
-			<path class="st0" d="M200.2,30.5c14.8,20.4,18.3,45-3.3,68.8c42.9,5.9,39.4,96.4-7.4,117.7l-66.9,30.6v-0.3l-27.7,12.5
-				c-8.3,3.6-14.8-0.8-14.8-10.3V84.3c0-5.4,3.7-11.3,8.5-13.4l83.3-38.1l-12.2-5.2L76.9,65.3c-7.2,3.3-7.7,5.6-7.7,12.3v156
-				c0,4.1,1.5,7.5,3.9,9l-5.2,2.4c-8.3,3.6-14.8-0.8-14.8-10.3V69.7c0-5.2-0.2-9.5,8.5-13.4l80-36.6l-10.2-4.3l-78.5,36
-				c-7.2,3.3-9.8,6.4-9.8,13.3v156c0,4.1,1.5,7.5,3.9,9l-5.2,2.4c-8.3,3.6-14.8-0.8-14.8-10.3V56.6c0-5.2,3.7-11.3,8.5-13.4l3.9-1.8
-				l76.5-34.5c22-9.9,23.5-8.2,39-1.4c3.7,1.6,8.9,3.6,13.7,5.9C188,20.3,193.9,21.6,200.2,30.5z M140.7,197.7
-				c32.7-14.9,29.9-61.6,0-47.8l-34,15.5v47.8L140.7,197.7z M140.7,117.8c30.9-14.3,29.9-61.6,0-47.8l-34,15.5v47.8L140.7,117.8z"/>
+			<path class="st0" d="M152.7,20c9.8,13.4,12.2,29.5-2.2,45.2c28.5,3.9,26.2,63.3-4.9,77.3l-44.4,20.1v-0.2l-18.4,8.2
+				c-5.5,2.4-9.8-0.5-9.8-6.8V55.4c0-3.5,2.5-7.4,5.6-8.8l55.3-25l-8.1-3.4l-55,24.8C66,45,65.7,46.6,65.7,51v102.4
+				c0,2.7,1,4.9,2.6,5.9l-3.5,1.6c-5.5,2.4-9.8-0.5-9.8-6.8V45.8c0-3.4-0.1-6.2,5.6-8.8l53.1-24l-6.8-2.8L54.9,33.7
+				c-4.8,2.2-6.5,4.2-6.5,8.7v102.4c0,2.7,1,4.9,2.6,5.9l-3.5,1.6c-5.5,2.4-9.8-0.5-9.8-6.8V37.2c0-3.4,2.5-7.4,5.6-8.8l2.6-1.2
+				L96.7,4.5c14.6-6.5,15.6-5.4,25.9-0.9c2.5,1.1,5.9,2.4,9.1,3.9C144.6,13.3,148.5,14.2,152.7,20z M113.2,129.8
+				c21.7-9.8,19.9-40.4,0-31.4l-22.6,10.2V140L113.2,129.8z M113.2,77.3c20.5-9.4,19.9-40.4,0-31.4L90.6,56.1v31.4L113.2,77.3z"/>
 		</g>
 	</g>
 </g>
-<rect x="0" y="265" class="st1" width="250" height="35"/>
-<text transform="matrix(1 0 0 1 3.0796 292.1592)" class="st2 st3 st4">Blog Dev Guide</text>
+<rect x="17.9" y="174" class="st1" width="164.1" height="23"/>
+<text transform="matrix(1 0 0 1 19.9473 191.8311)" class="st2 st3">Blog Dev Guide</text>
+<text transform="matrix(1 0 0 1 19.9473 191.8311)" class="st4 st2 st3">Blog Dev Guide</text>
 </svg>
