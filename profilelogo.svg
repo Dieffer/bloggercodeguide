@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 189.6 197.1" style="enable-background:new 0 0 189.6 197.1;" xml:space="preserve">
+	 viewBox="0 0 189.3 194.4" style="enable-background:new 0 0 189.3 194.4;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#F17424;}
 	.st1{fill:none;}
 	.st2{stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
 	.st3{font-family:'Ubuntu';}
 	.st4{font-size:21px;}
-	.st5{letter-spacing:2;}
 </style>
 <g>
 	<g id="XMLID_1_">
@@ -22,6 +21,6 @@
 		</g>
 	</g>
 </g>
-<rect y="174.8" class="st1" width="189.6" height="20.4"/>
-<text transform="matrix(1 0 0 1 1.059 191.1135)" class="st2 st3 st4 st5">  Blog Dev Guide</text>
+<rect x="0.4" y="172.7" class="st1" width="189.3" height="21"/>
+<text transform="matrix(1.1444 0 0 1 11.2748 188.9748)" class="st2 st3 st4">Blog Dev Guide</text>
 </svg>
