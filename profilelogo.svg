@@ -6,8 +6,8 @@
 	.st0{fill:#F17424;}
 	.st1{fill:none;}
 	.st2{font-family:'EducatedDeers-Regular';}
-	.st3{font-size:36px;}
-	.st4{letter-spacing:3;}
+	.st3{font-size:24px;}
+	.st4{letter-spacing:2;}
 </style>
 <g>
 	<g id="XMLID_1_">
@@ -21,6 +21,6 @@
 		</g>
 	</g>
 </g>
-<rect x="-49.2" y="172.7" class="st1" width="298.4" height="47.4"/>
-<text transform="matrix(1 0 0 1 3.2881 197.2497)" class="st2 st3 st4">Blog Dev Guide</text>
+<rect x="-49.2" y="171.7" class="st1" width="298.4" height="47.4"/>
+<text transform="matrix(1 0 0 1 35.5254 188.0779)" class="st2 st3 st4">Blog Dev Guide</text>
 </svg>
