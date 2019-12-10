@@ -1,0 +1,97 @@
+(function($) {
+    $.recentTweets = function(options) {
+    	var settings = {
+            tweetHolder : null,
+            tweetCount  : 99
+        };  
+
+        if (options) {
+            $.extend(settings, options);
+        };
+        
+        var URL = "https://api.twitter.com/1/statuses/user_timeline.json?include_entities=true&include_rts=true&screen_name=buzzstream&count="+settings.tweetCount+"&callback=?"
+        function relative_time(time_value) {
+
+            var values = time_value.split(" ");
+            time_value = values[1] + " " + values[2] + ", " + values[5] + " " + values[3];
+            var parsed_date = Date.parse(time_value);
+            var relative_to = (arguments.length > 1) ? arguments[1] : new Date();
+            var delta = parseInt((relative_to.getTime() - parsed_date) / 1000);
+            delta = delta + (relative_to.getTimezoneOffset() * 60);
+            var r = '';
+            if (delta < 60) {
+                r = 'a minute ago';
+            } else if(delta < 120) {
+                r = 'couple of minutes ago';
+            } else if(delta < (45*60)) {
+                r = (parseInt(delta / 60)).toString() + ' minutes ago';
+            } else if(delta < (90*60)) {
+                r = 'an hour ago';
+            } else if(delta < (24*60*60)) {
+                r = '' + (parseInt(delta / 3600)).toString() + ' hours ago';
+            } else if(delta < (48*60*60)) {
+                r = '1 day ago';
+            } else {
+                r = (parseInt(delta / 86400)).toString() + ' days ago';
+            }
+
+         return r;
+
+        };
+
+        String.prototype.hashify = function() {
+            return this.replace(/#([A-Za-z0-9\/\.]*)/g, function(m) {
+                return '<a target="_new" href="http://twitter.com/search?q=' + m.replace('#','') + '">' + m + "</a>";
+            });
+        };
+
+        String.prototype.linkify = function(){
+            return this.replace(/[A-Za-z]+:\/\/[A-Za-z0-9-_]+\.[A-Za-z0-9-_:%&\?\/.=]+/, function(m) {
+                return m.link(m);
+            });
+        };
+
+        String.prototype.atify = function() {
+            return this.replace(/@[\w]+/g, function(m) {
+                return '<a href="http://www.twitter.com/' + m.replace('@','') + '">' + m + "</a>";
+            });
+        };
+        
+        String.prototype.tweetify = function(){
+        	return this.linkify().atify().hashify();
+        }
+
+        $.getJSON(URL, function(JSON) {
+        	$(settings.tweetHolder).children().hide();
+            $.each(JSON, function(i, tweet) {
+                var profilePicture = tweet.profile_image_url;
+                var userLink = tweet.from_user;
+                var text = tweet.text;
+                var myTweet = text.tweetify();
+                var createdAt = new Date(tweet.created_at);
+                $(settings.tweetHolder).append('<li class="cycles"><p>' + myTweet + '</p></li>');
+            });
+        });
+    };
+    
+    $.recentPosts = function(options){
+    	
+    	var settings = {
+            postHolder : null,
+            postCount  : 99
+        };  
+
+        if (options) {
+            $.extend(settings, options);
+        };
+
+        var URL = "http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&q=http%3A%2F%2Ffeeds.feedburner.com%2FBuzzStreamFeed&num=" + settings.postCount + "&callback=?"
+        $.getJSON(URL, function(JSON) {
+        	$(settings.postHolder).children().hide();
+        	$.each(JSON.responseData.feed.entries, function(i,entry){
+				$(settings.postHolder).append('<li><p><a href="'+ entry.link + '" target="_new">' + entry.title + '</a></p></li>');
+			});
+        });
+    }
+
+})(jQuery);
