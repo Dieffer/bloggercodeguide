@@ -209,6 +209,7 @@ pre.line-numbers > code {
 		}
 pre.code-toolbar {
 	position: relative;
+	width: 500px;
 }
 
 pre.code-toolbar > .toolbar {
