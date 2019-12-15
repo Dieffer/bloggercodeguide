@@ -57,7 +57,7 @@
 
 .code-box-copy__tooltip {
     display: none;
-    position: absolute;
+    position: relative;
     bottom: -webkit-calc(100% + 11px);
     bottom: calc(100% + 11px);
     right: 0;
@@ -68,7 +68,7 @@
     text-align: center;
     border-radius: 2px;
     font-size: 13px;
-    z-index:9999999;
+    z-index:999;
 }
 
 .code-box-copy__tooltip::after {
