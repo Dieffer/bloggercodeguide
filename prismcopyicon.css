@@ -222,7 +222,7 @@ div.code-toolbar > .toolbar button {
 div.code-toolbar > .toolbar a,
 div.code-toolbar > .toolbar button,
 div.code-toolbar > .toolbar span {
-	color: #fffff;
+	color: #fff;
 	font-size: 1em;
 	padding: 0 .5em;
 	background: #ff811a;
@@ -237,6 +237,6 @@ div.code-toolbar > .toolbar button:hover,
 div.code-toolbar > .toolbar button:focus,
 div.code-toolbar > .toolbar span:hover,
 div.code-toolbar > .toolbar span:focus {
-	color: #fffff;
+	color: #fff;
 	text-decoration: none;
 }
