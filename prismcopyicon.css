@@ -222,13 +222,13 @@ div.code-toolbar > .toolbar button {
 div.code-toolbar > .toolbar a,
 div.code-toolbar > .toolbar button,
 div.code-toolbar > .toolbar span {
-	color: #bbb;
+	color: #fffff;
 	font-size: 1em;
 	padding: 0 .5em;
-	background: #f5f2f0;
-	background: rgba(224, 224, 224, 0.2);
+	background: #ff811a;
+	background: ##ff811a;
 	box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
-	border-radius: .5em;
+	border-radius: .3em;
 }
 
 div.code-toolbar > .toolbar a:hover,
@@ -237,6 +237,6 @@ div.code-toolbar > .toolbar button:hover,
 div.code-toolbar > .toolbar button:focus,
 div.code-toolbar > .toolbar span:hover,
 div.code-toolbar > .toolbar span:focus {
-	color: inherit;
+	color: #fffff;
 	text-decoration: none;
 }
