@@ -1,5 +1,5 @@
 /* PrismJS 1.17.1
-https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javascript+css-extras&plugins=line-numbers+highlight-keywords+inline-color+keep-markup+unescaped-markup+toolbar+copy-to-clipboard */
+https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javascript&plugins=line-numbers+keep-markup+toolbar+copy-to-clipboard */
 /**
  * prism.js default theme for JavaScript, CSS and HTML
  * Based on dabblet (http://dabblet.com)
@@ -182,27 +182,6 @@ pre[class*="language-"].line-numbers > code {
 			text-align: right;
 		}
 
-span.inline-color {
-	display: inline-block;
-	height: 1.333ch;
-	width: 1.333ch;
-	margin: 0 .333ch;
-	box-sizing: border-box;
-	border: 1px solid white;
-	outline: 1px solid black;
-}
-
-/* Fallback, in case JS does not run, to ensure the code is at least visible */
-[class*='lang-'] script[type='text/plain'],
-[class*='language-'] script[type='text/plain'],
-script[type='text/plain'][class*='lang-'],
-script[type='text/plain'][class*='language-'] {
-	display: block;
-	font: 100% Consolas, Monaco, monospace;
-	white-space: pre;
-	overflow: auto;
-}
-
 div.code-toolbar {
 	position: relative;
 }
@@ -267,4 +246,3 @@ div.code-toolbar > .toolbar span:focus {
 	color: inherit;
 	text-decoration: none;
 }
-
